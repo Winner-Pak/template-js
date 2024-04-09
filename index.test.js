@@ -1,5 +1,10 @@
+
 describe('Test X',()=> {
+
+  beforeEach(()=>{
+
+  })
   test('Jest se instaló correctamente',()=>{
-    expect(1 + 1).toBe(2)
+    expect(1 + 1 ).toBe(2)
   })
 })
