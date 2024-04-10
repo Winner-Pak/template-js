@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --cache --fix ."
   },
   "keywords": [
     "Javascript",
@@ -17,9 +18,11 @@
   "dependencies": {
   },
   "devDependencies": {
-    "jest": "^29.7.0",
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
-    "babel-jest": "^29.7.0"
+    "@eslint/js": "^9.0.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.0.0",
+    "jest": "^29.7.0"
   }
 }
